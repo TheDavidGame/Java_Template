@@ -7,14 +7,14 @@ import javax.annotation.PostConstruct;
 
 @Component
 public class Student {
-//    @Value("${student.name}")
-@Value("Vlad")
+    @Value("${student.name}")
+//@Value("Vlad")
     private String name;
-//    @Value("${student.last_name}")
-@Value("Bil")
+    @Value("${student.last_name}")
+//@Value("Bil")
     private String last_name;
-//    @Value("${student.group}")
-    @Value("ikbo-16-19")
+    @Value("${student.group}")
+//    @Value("ikbo-16-19")
     private String group;
 
     public Student() {

@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Main_13 {
     public static void main(String[] args) {
         SpringApplication.run(Main_13.class, args);
-        Student student = new Student();
 
     }
 }
