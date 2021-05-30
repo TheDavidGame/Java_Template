@@ -9,6 +9,7 @@ public class Main_6 {
 
         Client client = new Client();
         client.clear();
+        //opaa
 
     }
 }
